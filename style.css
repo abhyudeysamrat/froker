@@ -1,0 +1,141 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fffdfd;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: #ea8007;
+    text-decoration: none;
+}
+
+.wholebody {
+    padding: 2rem;
+}
+
+.completewholebody {
+    margin: 2rem 0;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-page {
+    min-width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.blog-post {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.childArticle {
+    position: relative;
+}
+
+.childArticle .overlayview {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+.childArticle img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.bannerheading {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.bydatepublish {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.my-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.full-text {
+    display: none;
+}
+
+.slider-navigation {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.slider-navigation button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.footer-content {
+    width: 100%;
+}
+
+.likesection img {
+    width: 25px;
+    position: absolute;
+    margin-left: -2.5%;
+}

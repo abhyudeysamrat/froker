@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/F.jpg" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#discover">Discover Froker</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="wholebody">
+        <section id="home" class="completewholebody">
+            <h1>FROKER BLOG</h1>
+            <p>Articles covering the most recent updates and advancements</p>
+        </section>
+
+        <section id="blog" class="completewholebody">
+            <h2>Recent Posts</h2>
+            <div class="slider">
+                <div class="slider-container">
+                    <!-- Page 1 -->
+                    <div class="slider-page">
+                        <article class="blog-post">
+                            <div class="childArticle">
+                                <div class="overlayview"></div>
+                                <img src="img/1.jpg" alt="Blog Image" class="secondImgart">
+                                <div class="bannerheading">Blog Post Title 1</div>
+                            </div>
+                            <div class="bydatepublish">
+                                <div class="publisherdetails">
+                                    <span class="by-joanna-wellick">by Roshan</span>
+                                    <div class="timetoread">
+                                        <span class="_2-minute-read-span">3 May 2024</span>
+                                    </div>
+                                </div>
+                                <div class="likesection">
+                                    <img src="img/11.jpg">
+                                    <span class="likecounts">120 Likes</span>
+                                </div>
+                            </div>
+                            <p class="para1">Delegating Social Media Tasks to AI
+
+                                In today's digital age, maintaining a vibrant social media presence is crucial for businesses and individuals alike. However, the demands of crafting engaging content, scheduling posts, and analyzing metrics can be overwhelming. </p>
+                            <button class="my-button" onclick="readMore(this)">Read More</button>
+                            <p class="full-text">Unlocking Efficiency with AI-Powered Schedulers
+                                Say goodbye to manual scheduling and hello to AI-powered schedulers! These innovative tools like Hootsuite, Magic Studio, Wordtune etc analyze your audience's behavior, optimize posting times, and ensure your content reaches its maximum potential. By delegating this task to AI, you free up valuable time to focus on creating quality content and engaging with your audience in real-time. Plus, with advanced features like post recycling and cross-platform scheduling, you'll never miss an opportunity to connect with your followers.</p>
+                        </article>
+                        <!-- Add more articles here -->
+                    </div>
+                    <!-- Page 2 -->
+                    <div class="slider-page">
+                        <!-- Add articles for page 2 here -->
+                    </div>
+                </div>
+                <div class="slider-navigation">
+                    <button class="prev" onclick="prevPage()">&#10094;</button>
+                    <button class="next" onclick="nextPage()">&#10095;</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="discover" class="completewholebody">
+            <h2>Discover Froker</h2>
+            <p>Discover the unique approach and innovation Froker brings to the industry.</p>
+        </section>
+    </main>
+
+    <footer>
+        <img class="footer-content" src="img/10.jpg" alt="footer"> 
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
